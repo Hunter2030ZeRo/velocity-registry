@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://velocity.dev/schema/package.schema.json",
+  "title": "Velocity package manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "name", "version", "description", "artifacts"],
+  "properties": {
+    "schema": { "const": 1 },
+    "name": { "type": "string", "pattern": "^[a-z0-9][a-z0-9+._-]*$" },
+    "version": { "type": "string", "minLength": 1 },
+    "description": { "type": "string", "minLength": 1 },
+    "homepage": { "type": "string", "pattern": "^https://" },
+    "license": { "type": "string", "minLength": 1 },
+    "aliases": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9+._-]*$" } },
+    "provides": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9+._-]*$" } },
+    "conflicts": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9+._-]*$" } },
+    "dependencies": { "type": "array", "items": { "$ref": "#/$defs/dependency" } },
+    "artifacts": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/artifact" } }
+  },
+  "$defs": {
+    "target": {
+      "type": "string",
+      "enum": [
+        "x86_64-pc-windows-msvc",
+        "aarch64-pc-windows-msvc",
+        "x86_64-unknown-linux-gnu",
+        "aarch64-unknown-linux-gnu",
+        "x86_64-unknown-linux-musl",
+        "aarch64-unknown-linux-musl"
+      ]
+    },
+    "dependency": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string", "pattern": "^[a-z0-9][a-z0-9+._-]*$" },
+        "version": { "type": "string", "minLength": 1 },
+        "when": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "targets": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/target" } }
+          }
+        }
+      }
+    },
+    "artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["target", "url", "sha256", "archive"],
+      "properties": {
+        "target": { "$ref": "#/$defs/target" },
+        "url": { "type": "string", "pattern": "^https://" },
+        "sha256": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" },
+        "archive": { "type": "string", "enum": ["zip", "tar.gz", "tar.xz", "tar.zst", "raw"] },
+        "strip_components": { "type": "integer", "minimum": 0 },
+        "binaries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["source", "name"],
+            "properties": {
+              "source": { "type": "string", "minLength": 1 },
+              "name": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    }
+  }
+}
