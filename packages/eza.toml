@@ -1,0 +1,42 @@
+schema = 1
+name = "eza"
+version = "0.23.5"
+description = "Modern replacement for ls"
+homepage = "https://github.com/eza-community/eza"
+license = "MIT"
+aliases = []
+provides = []
+conflicts = []
+
+[[artifacts]]
+target = "x86_64-unknown-linux-gnu"
+url = "https://github.com/eza-community/eza/releases/download/v0.23.5/eza_x86_64-unknown-linux-gnu.tar.gz"
+sha256 = "35c70c5c43c29108075e58b893234c67ef585f0b53a7eaf8e9e7d4eec9f339b4"
+archive = "tar.gz"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "eza"
+name = "eza"
+
+[[artifacts]]
+target = "aarch64-unknown-linux-gnu"
+url = "https://github.com/eza-community/eza/releases/download/v0.23.5/eza_aarch64-unknown-linux-gnu.tar.gz"
+sha256 = "40b87ae8628aa2ff0f0d2dc24ab52f689631366385c3da630bae745671fd71ec"
+archive = "tar.gz"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "eza"
+name = "eza"
+
+[[artifacts]]
+target = "x86_64-unknown-linux-musl"
+url = "https://github.com/eza-community/eza/releases/download/v0.23.5/eza_x86_64-unknown-linux-musl.tar.gz"
+sha256 = "e06eebab74b73d6b7d51a796a353824b001bea82df077706382e100815d28904"
+archive = "tar.gz"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "eza"
+name = "eza"
