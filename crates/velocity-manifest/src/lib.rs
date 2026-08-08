@@ -90,10 +90,11 @@ pub fn load_manifest(path: impl AsRef<Path>) -> Result<PackageManifest, Manifest
         source,
     })?;
 
-    let manifest: PackageManifest = toml::from_str(&text).map_err(|source| ManifestError::Parse {
-        path: path.display().to_string(),
-        source,
-    })?;
+    let manifest: PackageManifest =
+        toml::from_str(&text).map_err(|source| ManifestError::Parse {
+            path: path.display().to_string(),
+            source,
+        })?;
 
     manifest.validate()?;
     Ok(manifest)

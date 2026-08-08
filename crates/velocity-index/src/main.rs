@@ -252,13 +252,7 @@ fn validate_dependency_cycles(
     let mut stack = Vec::new();
 
     for &node in graph.keys() {
-        if let Some(cycle) = visit(
-            node,
-            &graph,
-            &mut temporary,
-            &mut permanent,
-            &mut stack,
-        ) {
+        if let Some(cycle) = visit(node, &graph, &mut temporary, &mut permanent, &mut stack) {
             let pretty = cycle
                 .iter()
                 .map(|id| names.get(id).copied().unwrap_or("<unknown>"))
