@@ -1,0 +1,53 @@
+schema = 1
+name = "ninja"
+version = "1.13.2"
+description = "Small build system with a focus on speed"
+homepage = "https://ninja-build.org"
+license = "Apache-2.0"
+aliases = []
+provides = []
+conflicts = []
+
+[[artifacts]]
+target = "x86_64-pc-windows-msvc"
+url = "https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-win.zip"
+sha256 = "07fc8261b42b20e71d1720b39068c2e14ffcee6396b76fb7a795fb460b78dc65"
+archive = "zip"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "ninja.exe"
+name = "ninja.exe"
+
+[[artifacts]]
+target = "aarch64-pc-windows-msvc"
+url = "https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-winarm64.zip"
+sha256 = "e52f0bdef9dfb1003229dbd6508a508c4073fd017247002adc66e5e806cb0391"
+archive = "zip"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "ninja.exe"
+name = "ninja.exe"
+
+[[artifacts]]
+target = "x86_64-unknown-linux-gnu"
+url = "https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-linux.zip"
+sha256 = "5749cbc4e668273514150a80e387a957f933c6ed3f5f11e03fb30955e2bbead6"
+archive = "zip"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "ninja"
+name = "ninja"
+
+[[artifacts]]
+target = "aarch64-unknown-linux-gnu"
+url = "https://github.com/ninja-build/ninja/releases/download/v1.13.2/ninja-linux-aarch64.zip"
+sha256 = "fd2cacc8050a7f12a16a2e48f9e06fca5c14fc4c2bee2babb67b58be17a607fc"
+archive = "zip"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "ninja"
+name = "ninja"
