@@ -1,0 +1,12 @@
+[package]
+name = "velocity-manifest"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+publish = false
+
+[dependencies]
+serde.workspace = true
+semver.workspace = true
+toml.workspace = true
+thiserror.workspace = true
