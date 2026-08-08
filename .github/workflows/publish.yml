@@ -1,0 +1,81 @@
+name: Publish registry index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "packages/**"
+      - "crates/**"
+      - "Cargo.toml"
+      - "Cargo.lock"
+      - "rust-toolchain.toml"
+      - ".github/workflows/publish.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: registry-publish
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache Rust build
+        uses: Swatinem/rust-cache@v2
+
+      - name: Build compiled index
+        run: |
+          cargo run --release -p velocity-index -- \
+            build \
+            --packages packages \
+            --output dist/velocity.idx.zst
+
+      - name: Write registry metadata
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          import json
+          import os
+          from pathlib import Path
+
+          index = Path("dist/velocity.idx.zst")
+          digest = hashlib.sha256(index.read_bytes()).hexdigest()
+          meta = {
+              "format": 1,
+              "commit": os.environ["GITHUB_SHA"],
+              "index": "velocity.idx.zst",
+              "sha256": digest,
+          }
+          Path("dist/registry.json").write_text(
+              json.dumps(meta, indent=2) + "\n",
+              encoding="utf-8",
+          )
+          PY
+
+      - name: Publish generated registry branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          publish_dir="$(mktemp -d)"
+          cp dist/velocity.idx.zst "$publish_dir/"
+          cp dist/velocity.idx.zst.sha256 "$publish_dir/"
+          cp dist/registry.json "$publish_dir/"
+
+          cd "$publish_dir"
+          git init -b registry
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "registry: ${GITHUB_SHA}"
+          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push --force origin registry
