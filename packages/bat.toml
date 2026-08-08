@@ -1,0 +1,75 @@
+schema = 1
+name = "bat"
+version = "0.26.1"
+description = "A cat clone with syntax highlighting and Git integration"
+homepage = "https://github.com/sharkdp/bat"
+license = "MIT OR Apache-2.0"
+aliases = []
+provides = []
+conflicts = []
+
+[[artifacts]]
+target = "x86_64-pc-windows-msvc"
+url = "https://github.com/sharkdp/bat/releases/download/v0.26.1/bat-v0.26.1-x86_64-pc-windows-msvc.zip"
+sha256 = "0f729b4b6f5f28d395c641eacc2e9ff68d0096b85aa0eec344aa62425144b69b"
+archive = "zip"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "bat.exe"
+name = "bat.exe"
+
+[[artifacts]]
+target = "aarch64-pc-windows-msvc"
+url = "https://github.com/sharkdp/bat/releases/download/v0.26.1/bat-v0.26.1-aarch64-pc-windows-msvc.zip"
+sha256 = "af07dd1939e99f7f5892d197fc5653cb8cb6c5999552731135ad156eca7e38a5"
+archive = "zip"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "bat.exe"
+name = "bat.exe"
+
+[[artifacts]]
+target = "x86_64-unknown-linux-gnu"
+url = "https://github.com/sharkdp/bat/releases/download/v0.26.1/bat-v0.26.1-x86_64-unknown-linux-gnu.tar.gz"
+sha256 = "726f04c8f576a7fd18b7634f1bbf2f915c43494c1c0f013baa3287edb0d5a2a3"
+archive = "tar.gz"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "bat"
+name = "bat"
+
+[[artifacts]]
+target = "aarch64-unknown-linux-gnu"
+url = "https://github.com/sharkdp/bat/releases/download/v0.26.1/bat-v0.26.1-aarch64-unknown-linux-gnu.tar.gz"
+sha256 = "422eb73e11c854fddd99f5ca8461c2f1d6e6dce0a2a8c3d5daade5ffcb6564aa"
+archive = "tar.gz"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "bat"
+name = "bat"
+
+[[artifacts]]
+target = "x86_64-unknown-linux-musl"
+url = "https://github.com/sharkdp/bat/releases/download/v0.26.1/bat-v0.26.1-x86_64-unknown-linux-musl.tar.gz"
+sha256 = "0dcd8ac79732c0d5b136f11f4ee00e581440e16a44eab5b3105b611bbf2cf191"
+archive = "tar.gz"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "bat"
+name = "bat"
+
+[[artifacts]]
+target = "aarch64-unknown-linux-musl"
+url = "https://github.com/sharkdp/bat/releases/download/v0.26.1/bat-v0.26.1-aarch64-unknown-linux-musl.tar.gz"
+sha256 = "6369242c584065f195fb20cb36fbd7cb63ae690605bbe89868a7596b596c2c23"
+archive = "tar.gz"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "bat"
+name = "bat"
