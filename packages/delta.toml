@@ -1,0 +1,53 @@
+schema = 1
+name = "delta"
+version = "0.19.2"
+description = "Syntax-highlighting pager for git, diff, grep, and blame output"
+homepage = "https://github.com/dandavison/delta"
+license = "MIT"
+aliases = ["git-delta"]
+provides = []
+conflicts = []
+
+[[artifacts]]
+target = "x86_64-pc-windows-msvc"
+url = "https://github.com/dandavison/delta/releases/download/0.19.2/delta-0.19.2-x86_64-pc-windows-msvc.zip"
+sha256 = "ac8ebb4a9f1cbee8b9ea897ba119808a244181adae6f3bed1f3b6b923c50b557"
+archive = "zip"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "delta.exe"
+name = "delta.exe"
+
+[[artifacts]]
+target = "x86_64-unknown-linux-gnu"
+url = "https://github.com/dandavison/delta/releases/download/0.19.2/delta-0.19.2-x86_64-unknown-linux-gnu.tar.gz"
+sha256 = "8e695c5f586a8c53d6c3b01be0b4a422ed218bfed2a56191caebe373a1c18ab2"
+archive = "tar.gz"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "delta"
+name = "delta"
+
+[[artifacts]]
+target = "aarch64-unknown-linux-gnu"
+url = "https://github.com/dandavison/delta/releases/download/0.19.2/delta-0.19.2-aarch64-unknown-linux-gnu.tar.gz"
+sha256 = "0bfce159a5cddd5feb3d6db4a616d883ff51253ce08ac7ec11cb1d208cfaab9e"
+archive = "tar.gz"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "delta"
+name = "delta"
+
+[[artifacts]]
+target = "x86_64-unknown-linux-musl"
+url = "https://github.com/dandavison/delta/releases/download/0.19.2/delta-0.19.2-x86_64-unknown-linux-musl.tar.gz"
+sha256 = "f1ea01ca7728ce3462debc359f39dfc7cbbc1a63224b71fefabf92042864aa1b"
+archive = "tar.gz"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "delta"
+name = "delta"
