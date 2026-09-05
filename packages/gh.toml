@@ -1,0 +1,54 @@
+# Upstream release: https://github.com/cli/cli/releases/tag/v2.100.0
+# SHA-256 source: GitHub release asset digest (not locally rehashed).
+schema = 1
+name = "gh"
+version = "2.100.0"
+description = "GitHub command-line interface (Git operations require system Git)"
+homepage = "https://github.com/cli/cli"
+aliases = ["github-cli"]
+provides = []
+conflicts = []
+
+[[artifacts]]
+target = "x86_64-pc-windows-msvc"
+url = "https://github.com/cli/cli/releases/download/v2.100.0/gh_2.100.0_windows_amd64.zip"
+sha256 = "227e35230b25db3fa1b997bab7cf4d67df0470a3b75b99e4ee66bce1a7cd4e72"
+archive = "zip"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "bin/gh.exe"
+name = "gh.exe"
+
+[[artifacts]]
+target = "aarch64-pc-windows-msvc"
+url = "https://github.com/cli/cli/releases/download/v2.100.0/gh_2.100.0_windows_arm64.zip"
+sha256 = "7beaeb4743cf255809a8e574a2724c685b566545e04eabea284fe38a56c15b02"
+archive = "zip"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "bin/gh.exe"
+name = "gh.exe"
+
+[[artifacts]]
+target = "x86_64-unknown-linux-gnu"
+url = "https://github.com/cli/cli/releases/download/v2.100.0/gh_2.100.0_linux_amd64.tar.gz"
+sha256 = "e4d4bb4498e8d007abe545b6568926793ace1b6447da598294a610018cb164be"
+archive = "tar.gz"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "bin/gh"
+name = "gh"
+
+[[artifacts]]
+target = "aarch64-unknown-linux-gnu"
+url = "https://github.com/cli/cli/releases/download/v2.100.0/gh_2.100.0_linux_arm64.tar.gz"
+sha256 = "ea4e7a581a32ccad6cc7923cb1576ac5859ba4b9a16ab22eb8f8a96e78e2e961"
+archive = "tar.gz"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "bin/gh"
+name = "gh"

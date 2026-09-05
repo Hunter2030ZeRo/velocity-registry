@@ -88,4 +88,4 @@ On every relevant push to `main`, `publish.yml` builds a fresh registry and forc
 
 ## Current state
 
-This is the initial registry scaffold. `packages/` is intentionally empty until the first manifests are populated with verified upstream URLs and checksums.
+`packages/` contains 20 logical packages with pinned upstream URLs and SHA-256 hashes. See [additional CLI packages](docs/ADDITIONAL_PACKAGES.md) for release sources, target coverage, usage prerequisites, and verification limits for the latest additions.

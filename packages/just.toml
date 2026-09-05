@@ -1,0 +1,54 @@
+# Upstream release: https://github.com/casey/just/releases/tag/1.58.0
+# SHA-256 source: GitHub release asset digest (not locally rehashed).
+schema = 1
+name = "just"
+version = "1.58.0"
+description = "Command runner for project-specific tasks"
+homepage = "https://github.com/casey/just"
+aliases = []
+provides = []
+conflicts = []
+
+[[artifacts]]
+target = "x86_64-pc-windows-msvc"
+url = "https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-x86_64-pc-windows-msvc.zip"
+sha256 = "759f16fb7aa17c5c8b9594b6d4a8c1a6630dfd042cf2b3ff84841454d3d188dc"
+archive = "zip"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "just.exe"
+name = "just.exe"
+
+[[artifacts]]
+target = "aarch64-pc-windows-msvc"
+url = "https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-aarch64-pc-windows-msvc.zip"
+sha256 = "3a39ed629eb67678976c811a4da46f7985a2c22f4dbabe017b8b2eb5ceb5d01c"
+archive = "zip"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "just.exe"
+name = "just.exe"
+
+[[artifacts]]
+target = "x86_64-unknown-linux-musl"
+url = "https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-x86_64-unknown-linux-musl.tar.gz"
+sha256 = "4a5cc2f53e6f0f8c59092a6cc38291eb729d46a7dd95d3ae582008881b84931d"
+archive = "tar.gz"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "just"
+name = "just"
+
+[[artifacts]]
+target = "aarch64-unknown-linux-musl"
+url = "https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-aarch64-unknown-linux-musl.tar.gz"
+sha256 = "748237128c4c40cbdabc65e841d05ceba13cc23a91eaba395495894c1d9764df"
+archive = "tar.gz"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "just"
+name = "just"

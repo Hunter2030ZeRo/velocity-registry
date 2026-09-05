@@ -1,0 +1,54 @@
+# Upstream release: https://github.com/sharkdp/hexyl/releases/tag/v0.17.0
+# SHA-256 source: GitHub release asset digest (not locally rehashed).
+schema = 1
+name = "hexyl"
+version = "0.17.0"
+description = "Command-line hex viewer with colored output"
+homepage = "https://github.com/sharkdp/hexyl"
+aliases = []
+provides = []
+conflicts = []
+
+[[artifacts]]
+target = "x86_64-pc-windows-msvc"
+url = "https://github.com/sharkdp/hexyl/releases/download/v0.17.0/hexyl-v0.17.0-x86_64-pc-windows-msvc.zip"
+sha256 = "ab5c3442cff63f585553d4fce330eaa1ef1bd2584643f1a0e29ab7c13fc9566d"
+archive = "zip"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "hexyl.exe"
+name = "hexyl.exe"
+
+[[artifacts]]
+target = "x86_64-unknown-linux-gnu"
+url = "https://github.com/sharkdp/hexyl/releases/download/v0.17.0/hexyl-v0.17.0-x86_64-unknown-linux-gnu.tar.gz"
+sha256 = "71b7463b8716225b4248525066e24b1874e954e87f397096f53e8804e3360189"
+archive = "tar.gz"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "hexyl"
+name = "hexyl"
+
+[[artifacts]]
+target = "aarch64-unknown-linux-gnu"
+url = "https://github.com/sharkdp/hexyl/releases/download/v0.17.0/hexyl-v0.17.0-aarch64-unknown-linux-gnu.tar.gz"
+sha256 = "70b97648935f98801fd3c3e4758ff4e92afcf7e75316ff65d4e4f5d2e321b658"
+archive = "tar.gz"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "hexyl"
+name = "hexyl"
+
+[[artifacts]]
+target = "x86_64-unknown-linux-musl"
+url = "https://github.com/sharkdp/hexyl/releases/download/v0.17.0/hexyl-v0.17.0-x86_64-unknown-linux-musl.tar.gz"
+sha256 = "82b374b800cc965f4116b9d5d6a50394945170d4f65b9ef6ced3b82b014de8a6"
+archive = "tar.gz"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "hexyl"
+name = "hexyl"

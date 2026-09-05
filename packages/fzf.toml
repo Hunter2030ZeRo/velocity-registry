@@ -1,0 +1,54 @@
+# Upstream release: https://github.com/junegunn/fzf/releases/tag/v0.74.3
+# SHA-256 source: GitHub release asset digest (not locally rehashed).
+schema = 1
+name = "fzf"
+version = "0.74.3"
+description = "Command-line fuzzy finder"
+homepage = "https://github.com/junegunn/fzf"
+aliases = []
+provides = []
+conflicts = []
+
+[[artifacts]]
+target = "x86_64-pc-windows-msvc"
+url = "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-windows_amd64.zip"
+sha256 = "cf5c137d9b391c3988c54af8f5fc490ffbef6f70444651e7d57fdb45ad04c8bd"
+archive = "zip"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "fzf.exe"
+name = "fzf.exe"
+
+[[artifacts]]
+target = "aarch64-pc-windows-msvc"
+url = "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-windows_arm64.zip"
+sha256 = "7d70c25a1229f3bbfcb56b4314f298c16ad61a258f9641b7acf08c513a40bd29"
+archive = "zip"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "fzf.exe"
+name = "fzf.exe"
+
+[[artifacts]]
+target = "x86_64-unknown-linux-gnu"
+url = "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_amd64.tar.gz"
+sha256 = "3501a595e4b5c40a6b047340a0e8f805c46fd4e61ef95ef8a136ba8c61cf6f22"
+archive = "tar.gz"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "fzf"
+name = "fzf"
+
+[[artifacts]]
+target = "aarch64-unknown-linux-gnu"
+url = "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_arm64.tar.gz"
+sha256 = "4a17a17b46bd0c4873e995533de508995c11572c0be0664a5dbcf13f60463046"
+archive = "tar.gz"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "fzf"
+name = "fzf"
