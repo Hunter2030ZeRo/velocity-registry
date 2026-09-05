@@ -1,0 +1,54 @@
+# Upstream release: https://github.com/muesli/duf/releases/tag/v0.9.1
+# SHA-256 source: GitHub release asset digest (not locally rehashed).
+schema = 1
+name = "duf"
+version = "0.9.1"
+description = "Disk usage and free space overview"
+homepage = "https://github.com/muesli/duf"
+aliases = []
+provides = []
+conflicts = []
+
+[[artifacts]]
+target = "x86_64-pc-windows-msvc"
+url = "https://github.com/muesli/duf/releases/download/v0.9.1/duf_0.9.1_windows_x86_64.zip"
+sha256 = "503934be81f847d9ddb1b739834217480633435ad16515dd199e372c0b2e1afc"
+archive = "zip"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "duf.exe"
+name = "duf.exe"
+
+[[artifacts]]
+target = "aarch64-pc-windows-msvc"
+url = "https://github.com/muesli/duf/releases/download/v0.9.1/duf_0.9.1_windows_arm64.zip"
+sha256 = "6aa91380c7bd5ba935bab38bb826680255a0d9569614de7b0d149cea471ccf4b"
+archive = "zip"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "duf.exe"
+name = "duf.exe"
+
+[[artifacts]]
+target = "x86_64-unknown-linux-gnu"
+url = "https://github.com/muesli/duf/releases/download/v0.9.1/duf_0.9.1_linux_x86_64.tar.gz"
+sha256 = "5add851e7062c5e56939abb664705e4d14fa2d06289490aff31d51f153832de7"
+archive = "tar.gz"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "duf"
+name = "duf"
+
+[[artifacts]]
+target = "aarch64-unknown-linux-gnu"
+url = "https://github.com/muesli/duf/releases/download/v0.9.1/duf_0.9.1_linux_arm64.tar.gz"
+sha256 = "22ea0ad29f6610bf443aa351e600de97e47a9b380ef58316606a84bb8f595216"
+archive = "tar.gz"
+strip_components = 0
+
+[[artifacts.binaries]]
+source = "duf"
+name = "duf"

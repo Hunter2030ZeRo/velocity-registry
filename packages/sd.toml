@@ -1,0 +1,54 @@
+# Upstream release: https://github.com/chmln/sd/releases/tag/v1.1.0
+# SHA-256 source: GitHub release asset digest (not locally rehashed).
+schema = 1
+name = "sd"
+version = "1.1.0"
+description = "Intuitive command-line find and replace"
+homepage = "https://github.com/chmln/sd"
+aliases = []
+provides = []
+conflicts = []
+
+[[artifacts]]
+target = "x86_64-pc-windows-msvc"
+url = "https://github.com/chmln/sd/releases/download/v1.1.0/sd-v1.1.0-x86_64-pc-windows-msvc.zip"
+sha256 = "59837c2e7c911099aca1cc46b663bcdc5a949fd3e9fbbaf34fc73e5d5d71007c"
+archive = "zip"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "sd.exe"
+name = "sd.exe"
+
+[[artifacts]]
+target = "x86_64-unknown-linux-gnu"
+url = "https://github.com/chmln/sd/releases/download/v1.1.0/sd-v1.1.0-x86_64-unknown-linux-gnu.tar.gz"
+sha256 = "3613eca74cd686739bb5a6d68319aa56c747e7315274d02323a2ca2b1c5d82d2"
+archive = "tar.gz"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "sd"
+name = "sd"
+
+[[artifacts]]
+target = "x86_64-unknown-linux-musl"
+url = "https://github.com/chmln/sd/releases/download/v1.1.0/sd-v1.1.0-x86_64-unknown-linux-musl.tar.gz"
+sha256 = "02f00f4777d43e8e95b7b8d49e1a0d6e502fed4b8e79c1c8b8063857a30caa2e"
+archive = "tar.gz"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "sd"
+name = "sd"
+
+[[artifacts]]
+target = "aarch64-unknown-linux-musl"
+url = "https://github.com/chmln/sd/releases/download/v1.1.0/sd-v1.1.0-aarch64-unknown-linux-musl.tar.gz"
+sha256 = "ec8c93c0533ff21f4851d11566808d4082544baf063d9b96ea77c27e98b7cd99"
+archive = "tar.gz"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "sd"
+name = "sd"

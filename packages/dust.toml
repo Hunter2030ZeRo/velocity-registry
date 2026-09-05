@@ -1,0 +1,76 @@
+# Upstream release: https://github.com/bootandy/dust/releases/tag/v1.2.5
+# SHA-256 source: GitHub release asset digest (not locally rehashed).
+schema = 1
+name = "dust"
+version = "1.2.5"
+description = "Visual disk usage analyzer"
+homepage = "https://github.com/bootandy/dust"
+aliases = []
+provides = []
+conflicts = []
+
+[[artifacts]]
+target = "x86_64-pc-windows-msvc"
+url = "https://github.com/bootandy/dust/releases/download/v1.2.5/dust-v1.2.5-x86_64-pc-windows-msvc.zip"
+sha256 = "b2731d92066d5787a106c0c835b96c6a4ba186d81abc0ead0a906f75d5f09aee"
+archive = "zip"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "dust.exe"
+name = "dust.exe"
+
+[[artifacts]]
+target = "aarch64-pc-windows-msvc"
+url = "https://github.com/bootandy/dust/releases/download/v1.2.5/dust-v1.2.5-aarch64-pc-windows-msvc.zip"
+sha256 = "7e632381a04d7e95fa62c50b7faefa8f89b3896552d66d7f075b9cc7728d58af"
+archive = "zip"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "dust.exe"
+name = "dust.exe"
+
+[[artifacts]]
+target = "x86_64-unknown-linux-gnu"
+url = "https://github.com/bootandy/dust/releases/download/v1.2.5/dust-v1.2.5-x86_64-unknown-linux-gnu.tar.gz"
+sha256 = "64b16f5c10cc4c25d2eaa144e9d2d44b3ed8f72ee63b3bc0a92c85e21e9e0932"
+archive = "tar.gz"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "dust"
+name = "dust"
+
+[[artifacts]]
+target = "aarch64-unknown-linux-gnu"
+url = "https://github.com/bootandy/dust/releases/download/v1.2.5/dust-v1.2.5-aarch64-unknown-linux-gnu.tar.gz"
+sha256 = "83b8d5b068bdbfd1952a55c8419e77c413d1c084ce7f7369d28f9be36d66dd6a"
+archive = "tar.gz"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "dust"
+name = "dust"
+
+[[artifacts]]
+target = "x86_64-unknown-linux-musl"
+url = "https://github.com/bootandy/dust/releases/download/v1.2.5/dust-v1.2.5-x86_64-unknown-linux-musl.tar.gz"
+sha256 = "79813b5743fab1e04c1d9c34042aab865dbe09efb76719e7c7d260568850fabc"
+archive = "tar.gz"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "dust"
+name = "dust"
+
+[[artifacts]]
+target = "aarch64-unknown-linux-musl"
+url = "https://github.com/bootandy/dust/releases/download/v1.2.5/dust-v1.2.5-aarch64-unknown-linux-musl.tar.gz"
+sha256 = "331b328233a70e56f0509ff962b2a6ea606eb2e654ce8a0e9a3bebe1bd54a2be"
+archive = "tar.gz"
+strip_components = 1
+
+[[artifacts.binaries]]
+source = "dust"
+name = "dust"
