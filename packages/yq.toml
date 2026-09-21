@@ -1,6 +1,8 @@
+# Upstream release: https://github.com/mikefarah/yq/releases/tag/v4.53.6
+# SHA-256 source: GitHub release asset digest (not locally rehashed).
 schema = 1
 name = "yq"
-version = "4.53.3"
+version = "4.53.6"
 description = "Portable command-line YAML, JSON, XML, CSV, TOML, HCL and properties processor"
 homepage = "https://github.com/mikefarah/yq"
 license = "MIT"
@@ -10,8 +12,8 @@ conflicts = []
 
 [[artifacts]]
 target = "x86_64-pc-windows-msvc"
-url = "https://github.com/mikefarah/yq/releases/download/v4.53.3/yq_windows_amd64.exe"
-sha256 = "e279bc506a452eeafcdf364f91a025455e402a8001169083caf01f4b64a544e2"
+url = "https://github.com/mikefarah/yq/releases/download/v4.53.6/yq_windows_amd64.exe"
+sha256 = "ece3dd8bb50d39f93610506273ea262feb91e5c486bbddbb10abf91b2a6c0f14"
 archive = "raw"
 strip_components = 0
 
@@ -21,8 +23,8 @@ name = "yq.exe"
 
 [[artifacts]]
 target = "aarch64-pc-windows-msvc"
-url = "https://github.com/mikefarah/yq/releases/download/v4.53.3/yq_windows_arm64.exe"
-sha256 = "c80ac96ff2a8d77d452d91304e11feef8fb23239900b3d1d88f47c2ec93be970"
+url = "https://github.com/mikefarah/yq/releases/download/v4.53.6/yq_windows_arm64.exe"
+sha256 = "9a0ec8f648b0749d3d71286df96384f358c0eeca486bbcdec04e747307021d3a"
 archive = "raw"
 strip_components = 0
 
@@ -32,8 +34,8 @@ name = "yq.exe"
 
 [[artifacts]]
 target = "x86_64-unknown-linux-gnu"
-url = "https://github.com/mikefarah/yq/releases/download/v4.53.3/yq_linux_amd64"
-sha256 = "fa52a4e758c63d38299163fbdd1edfb4c4963247918bf9c1c5d31d84789eded4"
+url = "https://github.com/mikefarah/yq/releases/download/v4.53.6/yq_linux_amd64"
+sha256 = "c5f056448f973ae7d39b5401949648a78f2dc1947d6a8eb65be60d5c504b9385"
 archive = "raw"
 strip_components = 0
 
@@ -43,8 +45,8 @@ name = "yq"
 
 [[artifacts]]
 target = "aarch64-unknown-linux-gnu"
-url = "https://github.com/mikefarah/yq/releases/download/v4.53.3/yq_linux_arm64"
-sha256 = "578648e463a11c1b6db6010cbf41eafed6bee79466fcffa1bb446672cf7945ea"
+url = "https://github.com/mikefarah/yq/releases/download/v4.53.6/yq_linux_arm64"
+sha256 = "88a1016bc1d657375a35864e4f44b6f333df8ff97b559f51bba0adcb2169df09"
 archive = "raw"
 strip_components = 0
 
