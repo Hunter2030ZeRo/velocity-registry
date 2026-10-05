@@ -1,8 +1,8 @@
-# Upstream release: https://github.com/astral-sh/uv/releases/tag/0.12.19
+# Upstream release: https://github.com/astral-sh/uv/releases/tag/0.12.23
 # SHA-256 source: GitHub release asset digest (not locally rehashed).
 schema = 1
 name = "uv"
-version = "0.12.19"
+version = "0.12.23"
 description = "Fast Python package and project manager"
 homepage = "https://github.com/astral-sh/uv"
 aliases = ["uvx"]
@@ -11,8 +11,8 @@ conflicts = []
 
 [[artifacts]]
 target = "x86_64-pc-windows-msvc"
-url = "https://github.com/astral-sh/uv/releases/download/0.12.19/uv-x86_64-pc-windows-msvc.zip"
-sha256 = "6dbb02d79e419522f1c500f0adb1cddcff0cda7d59b0d66ea7f5e3b4a1b2f5f0"
+url = "https://github.com/astral-sh/uv/releases/download/0.12.23/uv-x86_64-pc-windows-msvc.zip"
+sha256 = "75d05de6762778c31ee183398de7dd15093fad0ed90b1f236d8205ea5ec00c90"
 archive = "zip"
 strip_components = 0
 
@@ -30,8 +30,8 @@ name = "uvw.exe"
 
 [[artifacts]]
 target = "aarch64-pc-windows-msvc"
-url = "https://github.com/astral-sh/uv/releases/download/0.12.19/uv-aarch64-pc-windows-msvc.zip"
-sha256 = "115b54cb823bc48260670f5782001add6067ac8d98d18c8263a833704e287de9"
+url = "https://github.com/astral-sh/uv/releases/download/0.12.23/uv-aarch64-pc-windows-msvc.zip"
+sha256 = "13294e232ececbe709c06b74e6ced06f2a225ea5591476685362f22be56a50d5"
 archive = "zip"
 strip_components = 0
 
@@ -49,8 +49,8 @@ name = "uvw.exe"
 
 [[artifacts]]
 target = "x86_64-unknown-linux-gnu"
-url = "https://github.com/astral-sh/uv/releases/download/0.12.19/uv-x86_64-unknown-linux-gnu.tar.gz"
-sha256 = "23bf5552d220e0842b65c862097b2ebaeba0064b74eda5e565e77fd25969d8c8"
+url = "https://github.com/astral-sh/uv/releases/download/0.12.23/uv-x86_64-unknown-linux-gnu.tar.gz"
+sha256 = "9167d72b3319674b6303c4cbe071854bba13ebdf3d76b1a7cbdc175471fb66d6"
 archive = "tar.gz"
 strip_components = 1
 
@@ -64,8 +64,8 @@ name = "uvx"
 
 [[artifacts]]
 target = "aarch64-unknown-linux-gnu"
-url = "https://github.com/astral-sh/uv/releases/download/0.12.19/uv-aarch64-unknown-linux-gnu.tar.gz"
-sha256 = "0804e9b164c64b6914182d5920c08551958a095986f10a3731056df701126436"
+url = "https://github.com/astral-sh/uv/releases/download/0.12.23/uv-aarch64-unknown-linux-gnu.tar.gz"
+sha256 = "6524bd338177ed50d035d39354e12545e993bbeba2ecbddf0480c5b3a81d313f"
 archive = "tar.gz"
 strip_components = 1
 
@@ -79,8 +79,8 @@ name = "uvx"
 
 [[artifacts]]
 target = "x86_64-unknown-linux-musl"
-url = "https://github.com/astral-sh/uv/releases/download/0.12.19/uv-x86_64-unknown-linux-musl.tar.gz"
-sha256 = "db7278c9f57981338fddff1fb250e11964bc0a4fafcb9eed8303fdb117dc067b"
+url = "https://github.com/astral-sh/uv/releases/download/0.12.23/uv-x86_64-unknown-linux-musl.tar.gz"
+sha256 = "1cff8783850e794470aadb73f54b749542a511fc57b0ce6468b64bd3852e0ade"
 archive = "tar.gz"
 strip_components = 1
 
@@ -94,8 +94,8 @@ name = "uvx"
 
 [[artifacts]]
 target = "aarch64-unknown-linux-musl"
-url = "https://github.com/astral-sh/uv/releases/download/0.12.19/uv-aarch64-unknown-linux-musl.tar.gz"
-sha256 = "ad8d8448a2ff642ba62c2f684d7dd22a03f8eb3fc9918c2c3e8ec975f4ed6710"
+url = "https://github.com/astral-sh/uv/releases/download/0.12.23/uv-aarch64-unknown-linux-musl.tar.gz"
+sha256 = "b536543cc4d50661986b165c76ee8aa9056e4fa332edcd153ff2e98760f9359b"
 archive = "tar.gz"
 strip_components = 1
 
