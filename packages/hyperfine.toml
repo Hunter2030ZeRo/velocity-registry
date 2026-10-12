@@ -1,6 +1,8 @@
+# Upstream release: https://github.com/sharkdp/hyperfine/releases/tag/v2.0.0
+# SHA-256 source: GitHub release asset digest, locally rehashed and matched.
 schema = 1
 name = "hyperfine"
-version = "1.20.0"
+version = "2.0.0"
 description = "Command-line benchmarking tool"
 homepage = "https://github.com/sharkdp/hyperfine"
 license = "MIT OR Apache-2.0"
@@ -10,8 +12,8 @@ conflicts = []
 
 [[artifacts]]
 target = "x86_64-pc-windows-msvc"
-url = "https://github.com/sharkdp/hyperfine/releases/download/v1.20.0/hyperfine-v1.20.0-x86_64-pc-windows-msvc.zip"
-sha256 = "2508c549b049b1d4342d08edc1cb42bfac169082b6e3069431b5bab9822dbb32"
+url = "https://github.com/sharkdp/hyperfine/releases/download/v2.0.0/hyperfine-v2.0.0-x86_64-pc-windows-msvc.zip"
+sha256 = "3dec51acee1060908e67948838d6bc0a7aacde0774acebfa4afb220dcf0bc078"
 archive = "zip"
 strip_components = 1
 
@@ -21,8 +23,8 @@ name = "hyperfine.exe"
 
 [[artifacts]]
 target = "x86_64-unknown-linux-gnu"
-url = "https://github.com/sharkdp/hyperfine/releases/download/v1.20.0/hyperfine-v1.20.0-x86_64-unknown-linux-gnu.tar.gz"
-sha256 = "63ad53934062118f5b0be11785e0bb1603d4b91667d1921f2fd8df9a8712040a"
+url = "https://github.com/sharkdp/hyperfine/releases/download/v2.0.0/hyperfine-v2.0.0-x86_64-unknown-linux-gnu.tar.gz"
+sha256 = "ae2beda2ac99c098427e4f755244552daf20e514422889cca6d44421e2d93c87"
 archive = "tar.gz"
 strip_components = 1
 
@@ -32,8 +34,8 @@ name = "hyperfine"
 
 [[artifacts]]
 target = "aarch64-unknown-linux-gnu"
-url = "https://github.com/sharkdp/hyperfine/releases/download/v1.20.0/hyperfine-v1.20.0-aarch64-unknown-linux-gnu.tar.gz"
-sha256 = "90875cb1db7a1d797c311174d061728361e58fc70e3b62262a00635ac3b1997c"
+url = "https://github.com/sharkdp/hyperfine/releases/download/v2.0.0/hyperfine-v2.0.0-aarch64-unknown-linux-gnu.tar.gz"
+sha256 = "f8244d1e17f8da23ee6b3ae2cdc04a6a185a450f6b74e09bff12e498038fcbc9"
 archive = "tar.gz"
 strip_components = 1
 
@@ -43,8 +45,8 @@ name = "hyperfine"
 
 [[artifacts]]
 target = "x86_64-unknown-linux-musl"
-url = "https://github.com/sharkdp/hyperfine/releases/download/v1.20.0/hyperfine-v1.20.0-x86_64-unknown-linux-musl.tar.gz"
-sha256 = "3285ec7959285288137043dd81dce0dde056227018a8277532d9a364b4f03c2b"
+url = "https://github.com/sharkdp/hyperfine/releases/download/v2.0.0/hyperfine-v2.0.0-x86_64-unknown-linux-musl.tar.gz"
+sha256 = "38e59087bd65520930a13cf513d8a493b7043741e8ad62349a8a9929eb61bc5c"
 archive = "tar.gz"
 strip_components = 1
 
