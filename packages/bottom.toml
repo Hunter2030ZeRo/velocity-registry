@@ -1,8 +1,8 @@
-# Upstream release: https://github.com/ClementTsang/bottom/releases/tag/0.14.9
-# SHA-256 source: GitHub release asset digest (not locally rehashed).
+# Upstream release: https://github.com/ClementTsang/bottom/releases/tag/0.15.0
+# SHA-256 source: GitHub release asset digest, locally rehashed and matched.
 schema = 1
 name = "bottom"
-version = "0.14.9"
+version = "0.15.0"
 description = "Cross-platform graphical process and system monitor"
 homepage = "https://github.com/ClementTsang/bottom"
 aliases = ["btm"]
@@ -11,8 +11,8 @@ conflicts = []
 
 [[artifacts]]
 target = "x86_64-pc-windows-msvc"
-url = "https://github.com/ClementTsang/bottom/releases/download/0.14.9/bottom_x86_64-pc-windows-msvc.zip"
-sha256 = "01660721b0fdc72b191f2b27b78dc9a3087aeb7b3fad4a890c53870089d6b500"
+url = "https://github.com/ClementTsang/bottom/releases/download/0.15.0/bottom_x86_64-pc-windows-msvc.zip"
+sha256 = "aeff72e355116516d2583f34348e31f60c5899e394a08eeda79a2bdb361e27bd"
 archive = "zip"
 strip_components = 0
 
@@ -22,8 +22,8 @@ name = "btm.exe"
 
 [[artifacts]]
 target = "aarch64-pc-windows-msvc"
-url = "https://github.com/ClementTsang/bottom/releases/download/0.14.9/bottom_aarch64-pc-windows-msvc.zip"
-sha256 = "fabe9fc4850d12917150295900119eaa5455724658d1d709e013cacdc0390349"
+url = "https://github.com/ClementTsang/bottom/releases/download/0.15.0/bottom_aarch64-pc-windows-msvc.zip"
+sha256 = "d59701b6c2791765cf1d88dbd21bfe21215ecde12575a1fd22cebf6560b4e5e1"
 archive = "zip"
 strip_components = 0
 
@@ -33,8 +33,8 @@ name = "btm.exe"
 
 [[artifacts]]
 target = "x86_64-unknown-linux-gnu"
-url = "https://github.com/ClementTsang/bottom/releases/download/0.14.9/bottom_x86_64-unknown-linux-gnu.tar.gz"
-sha256 = "e0c325829e8bdcea25a8a7651da05dbb6f1fc109ac5d2f0187867d3d5d9c0df8"
+url = "https://github.com/ClementTsang/bottom/releases/download/0.15.0/bottom_x86_64-unknown-linux-gnu.tar.gz"
+sha256 = "051888e0e064aa037728efed3fcf77820714f8f4dc7bea2b0179d40c54400c26"
 archive = "tar.gz"
 strip_components = 0
 
@@ -44,8 +44,8 @@ name = "btm"
 
 [[artifacts]]
 target = "aarch64-unknown-linux-gnu"
-url = "https://github.com/ClementTsang/bottom/releases/download/0.14.9/bottom_aarch64-unknown-linux-gnu.tar.gz"
-sha256 = "a6a0a0dda426b31b2c72e15a26c7e97c2224aafdd66f60632e34ee464a64ec8f"
+url = "https://github.com/ClementTsang/bottom/releases/download/0.15.0/bottom_aarch64-unknown-linux-gnu.tar.gz"
+sha256 = "93221c07d549750e5cfac2a76f70e5d792c744958ecc466bbeb9d3bef34288b6"
 archive = "tar.gz"
 strip_components = 0
 
@@ -55,8 +55,8 @@ name = "btm"
 
 [[artifacts]]
 target = "x86_64-unknown-linux-musl"
-url = "https://github.com/ClementTsang/bottom/releases/download/0.14.9/bottom_x86_64-unknown-linux-musl.tar.gz"
-sha256 = "b4bee5b193e7d3f6e090ac14f0ca15acec2e7fe4ef64988e0bfc492e16c28c9a"
+url = "https://github.com/ClementTsang/bottom/releases/download/0.15.0/bottom_x86_64-unknown-linux-musl.tar.gz"
+sha256 = "c66d6a0148102f107800919cd0ff6cce8767ae998f3c954b72e37a7f769e3ae2"
 archive = "tar.gz"
 strip_components = 0
 
@@ -66,8 +66,8 @@ name = "btm"
 
 [[artifacts]]
 target = "aarch64-unknown-linux-musl"
-url = "https://github.com/ClementTsang/bottom/releases/download/0.14.9/bottom_aarch64-unknown-linux-musl.tar.gz"
-sha256 = "7b6d532f6a6af356970f4e8d7d3a792590485aa4a53ebf038e10d20366125533"
+url = "https://github.com/ClementTsang/bottom/releases/download/0.15.0/bottom_aarch64-unknown-linux-musl.tar.gz"
+sha256 = "78e03e96d02e946be1f94066cd78f1adc3bb8c0db5f53fdf24d70a3ab351e05c"
 archive = "tar.gz"
 strip_components = 0
 
