@@ -1,8 +1,8 @@
-# Upstream release: https://github.com/cli/cli/releases/tag/v2.103.2
+# Upstream release: https://github.com/cli/cli/releases/tag/v2.103.3
 # SHA-256 source: GitHub release asset digest, locally rehashed and matched.
 schema = 1
 name = "gh"
-version = "2.103.2"
+version = "2.103.3"
 description = "GitHub command-line interface (Git operations require system Git)"
 homepage = "https://github.com/cli/cli"
 aliases = ["github-cli"]
@@ -11,8 +11,8 @@ conflicts = []
 
 [[artifacts]]
 target = "x86_64-pc-windows-msvc"
-url = "https://github.com/cli/cli/releases/download/v2.103.2/gh_2.103.2_windows_amd64.zip"
-sha256 = "fef9fcdd8fdabd0501ab8b3d99eac976f504ab55d01bef9e8ef428a5d900ddda"
+url = "https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_windows_amd64.zip"
+sha256 = "98d0cfa794721665d7973dd728c78aff7bd836d58f10f6d7a03568eccb0a22e0"
 archive = "zip"
 strip_components = 0
 
@@ -22,8 +22,8 @@ name = "gh.exe"
 
 [[artifacts]]
 target = "aarch64-pc-windows-msvc"
-url = "https://github.com/cli/cli/releases/download/v2.103.2/gh_2.103.2_windows_arm64.zip"
-sha256 = "cefaaa3efcd110ef7bf71071a2242b85fd3d2ac26d7d62e1082de6a1e60a81d6"
+url = "https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_windows_arm64.zip"
+sha256 = "197211c98687d7770ac331fe8a3b6c198c389108c1536cdbedf659fe4703e484"
 archive = "zip"
 strip_components = 0
 
@@ -33,8 +33,8 @@ name = "gh.exe"
 
 [[artifacts]]
 target = "x86_64-unknown-linux-gnu"
-url = "https://github.com/cli/cli/releases/download/v2.103.2/gh_2.103.2_linux_amd64.tar.gz"
-sha256 = "62ccf747115ddc61237efffdde66a3c8f70ba249433dc64f70801089b59c59c8"
+url = "https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_linux_amd64.tar.gz"
+sha256 = "4c806978ffce1cec70853302a56d70ac6da4f19bae7adca4e1a8ab00633dd91d"
 archive = "tar.gz"
 strip_components = 1
 
@@ -44,8 +44,8 @@ name = "gh"
 
 [[artifacts]]
 target = "aarch64-unknown-linux-gnu"
-url = "https://github.com/cli/cli/releases/download/v2.103.2/gh_2.103.2_linux_arm64.tar.gz"
-sha256 = "4c3e99a50bd8b181a3fe9d69b25dd978bac768148d88f01507c6b4d1ef61a443"
+url = "https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_linux_arm64.tar.gz"
+sha256 = "ee32df2323c8847f5fac6cb6b4b69ca75828e9329a8f22f677021f7b3306ce63"
 archive = "tar.gz"
 strip_components = 1
 

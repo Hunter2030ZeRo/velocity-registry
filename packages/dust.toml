@@ -1,8 +1,8 @@
-# Upstream release: https://github.com/bootandy/dust/releases/tag/v1.2.6
-# SHA-256 source: GitHub release asset digest (not locally rehashed).
+# Upstream release: https://github.com/bootandy/dust/releases/tag/v1.2.7
+# SHA-256 source: GitHub release asset digest, locally rehashed and matched.
 schema = 1
 name = "dust"
-version = "1.2.6"
+version = "1.2.7"
 description = "Visual disk usage analyzer"
 homepage = "https://github.com/bootandy/dust"
 aliases = []
@@ -11,8 +11,8 @@ conflicts = []
 
 [[artifacts]]
 target = "x86_64-pc-windows-msvc"
-url = "https://github.com/bootandy/dust/releases/download/v1.2.6/dust-v1.2.6-x86_64-pc-windows-msvc.zip"
-sha256 = "6a73222902d6960ce7183cd833a5d3ea99a3e3ff3cfb33720c1939a41cb7744d"
+url = "https://github.com/bootandy/dust/releases/download/v1.2.7/dust-v1.2.7-x86_64-pc-windows-msvc.zip"
+sha256 = "d07a41521958895e701ad55f342302b7362799d6a328c843e8e2208ba0564c30"
 archive = "zip"
 strip_components = 1
 
@@ -22,8 +22,8 @@ name = "dust.exe"
 
 [[artifacts]]
 target = "aarch64-pc-windows-msvc"
-url = "https://github.com/bootandy/dust/releases/download/v1.2.6/dust-v1.2.6-aarch64-pc-windows-msvc.zip"
-sha256 = "43b14b97245452e8dd5506ab5fdc996ddd51c2f820c936d45210d3253b613062"
+url = "https://github.com/bootandy/dust/releases/download/v1.2.7/dust-v1.2.7-aarch64-pc-windows-msvc.zip"
+sha256 = "4d8cce667fbfb39b9f6f1d81b4ffc70dc51744e9d1e5a654d96dd1eee59d1695"
 archive = "zip"
 strip_components = 1
 
@@ -33,8 +33,8 @@ name = "dust.exe"
 
 [[artifacts]]
 target = "x86_64-unknown-linux-gnu"
-url = "https://github.com/bootandy/dust/releases/download/v1.2.6/dust-v1.2.6-x86_64-unknown-linux-gnu.tar.gz"
-sha256 = "14f788707aad217667f6812cf1a9639bf5c861a2ee815d486cffc36051f5e759"
+url = "https://github.com/bootandy/dust/releases/download/v1.2.7/dust-v1.2.7-x86_64-unknown-linux-gnu.tar.gz"
+sha256 = "ec3bf712c660dcaa5578b996741f5cca36b30c021c1e4b49352b11137a95a96e"
 archive = "tar.gz"
 strip_components = 1
 
@@ -44,8 +44,8 @@ name = "dust"
 
 [[artifacts]]
 target = "aarch64-unknown-linux-gnu"
-url = "https://github.com/bootandy/dust/releases/download/v1.2.6/dust-v1.2.6-aarch64-unknown-linux-gnu.tar.gz"
-sha256 = "ec6a63bc275a33000443d444fd5424e56745aa995bc88e1080cd951e5e9e5cbf"
+url = "https://github.com/bootandy/dust/releases/download/v1.2.7/dust-v1.2.7-aarch64-unknown-linux-gnu.tar.gz"
+sha256 = "64496fe9e56dabb379308b3a079816818f6022d0b93638d06206a9144ca795d9"
 archive = "tar.gz"
 strip_components = 1
 
@@ -55,8 +55,8 @@ name = "dust"
 
 [[artifacts]]
 target = "x86_64-unknown-linux-musl"
-url = "https://github.com/bootandy/dust/releases/download/v1.2.6/dust-v1.2.6-x86_64-unknown-linux-musl.tar.gz"
-sha256 = "cbf2cb5c9d6227e46fc4b29c03dc43b8632020dfc5cf269d263d6e29c399e044"
+url = "https://github.com/bootandy/dust/releases/download/v1.2.7/dust-v1.2.7-x86_64-unknown-linux-musl.tar.gz"
+sha256 = "2f1a1106f1f14c0b684b2f0a5f4482c6d53e07a871df4afc11e3b91ade300b55"
 archive = "tar.gz"
 strip_components = 1
 
@@ -66,8 +66,8 @@ name = "dust"
 
 [[artifacts]]
 target = "aarch64-unknown-linux-musl"
-url = "https://github.com/bootandy/dust/releases/download/v1.2.6/dust-v1.2.6-aarch64-unknown-linux-musl.tar.gz"
-sha256 = "a51cf42a4654864837cc116eaca914271d7a09a9c2a60de90ecc2187b8d855a7"
+url = "https://github.com/bootandy/dust/releases/download/v1.2.7/dust-v1.2.7-aarch64-unknown-linux-musl.tar.gz"
+sha256 = "4c8ebaf224179bfd42db45d8a50fd5304bbd89532eda94db684d309c7b734ed6"
 archive = "tar.gz"
 strip_components = 1
 
