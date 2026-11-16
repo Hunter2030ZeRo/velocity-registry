@@ -1,8 +1,8 @@
-# Upstream release: https://github.com/mikefarah/yq/releases/tag/v4.54.2
+# Upstream release: https://github.com/mikefarah/yq/releases/tag/v4.54.3
 # SHA-256 source: GitHub release asset digest, locally rehashed and matched.
 schema = 1
 name = "yq"
-version = "4.54.2"
+version = "4.54.3"
 description = "Portable command-line YAML, JSON, XML, CSV, TOML, HCL and properties processor"
 homepage = "https://github.com/mikefarah/yq"
 license = "MIT"
@@ -12,8 +12,8 @@ conflicts = []
 
 [[artifacts]]
 target = "x86_64-pc-windows-msvc"
-url = "https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_windows_amd64.exe"
-sha256 = "d14bfc4c0daf75336e07f534980b0dd560775cbffbedef29d91aa733c9fefb52"
+url = "https://github.com/mikefarah/yq/releases/download/v4.54.3/yq_windows_amd64.exe"
+sha256 = "066ea0a09a282e47588ec1e1867280ff5ede458f7183617a2d99012e4e34f18a"
 archive = "raw"
 strip_components = 0
 
@@ -23,8 +23,8 @@ name = "yq.exe"
 
 [[artifacts]]
 target = "aarch64-pc-windows-msvc"
-url = "https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_windows_arm64.exe"
-sha256 = "9f055dcf271f77451b7c0abc5a51a573c182752fea775ec0698b0619df22e9e2"
+url = "https://github.com/mikefarah/yq/releases/download/v4.54.3/yq_windows_arm64.exe"
+sha256 = "a0c37ad85f4dafdabeaaf46127e408356fd480b7096e3a41e5dede2f3e46080d"
 archive = "raw"
 strip_components = 0
 
@@ -34,8 +34,8 @@ name = "yq.exe"
 
 [[artifacts]]
 target = "x86_64-unknown-linux-gnu"
-url = "https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_amd64"
-sha256 = "44c7759059b4910827a0059a2757b22001e59360cdecdb2ef8dedc4b6c7e9f32"
+url = "https://github.com/mikefarah/yq/releases/download/v4.54.3/yq_linux_amd64"
+sha256 = "129534601871538efe0ba4c5e62a34fb1d5f469bcb975c4fddeb467d82974973"
 archive = "raw"
 strip_components = 0
 
@@ -45,8 +45,8 @@ name = "yq"
 
 [[artifacts]]
 target = "aarch64-unknown-linux-gnu"
-url = "https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_arm64"
-sha256 = "bd44211dcd29a5f0eb701d4b7eb5ccd0cfff3bd3966cb4f7f9bd5b13701d997e"
+url = "https://github.com/mikefarah/yq/releases/download/v4.54.3/yq_linux_arm64"
+sha256 = "89f69310b61b68d1245065a1241d1fc843f7a36cd6103ffd77ad987613bd1b67"
 archive = "raw"
 strip_components = 0
 
