@@ -1,6 +1,6 @@
 schema = 1
 name = "ripgrep"
-version = "15.2.0"
+version = "16.0.0"
 description = "Fast recursive line-oriented search tool"
 homepage = "https://github.com/BurntSushi/ripgrep"
 aliases = ["rg"]
@@ -9,8 +9,8 @@ conflicts = []
 
 [[artifacts]]
 target = "x86_64-pc-windows-msvc"
-url = "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-pc-windows-msvc.zip"
-sha256 = "71b2fef860abe467217a538ff31de02f5258807c0129f771846f87bd029aafc5"
+url = "https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-x86_64-pc-windows-msvc.zip"
+sha256 = "f418ae83e63046a94a7b5f3a44bf3a169f66e689164856ecee02547131c73931"
 archive = "zip"
 strip_components = 1
 
@@ -20,8 +20,8 @@ name = "rg.exe"
 
 [[artifacts]]
 target = "aarch64-pc-windows-msvc"
-url = "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-pc-windows-msvc.zip"
-sha256 = "e4abca10c3a64ebea742667dd7009449d49403db5460dd6873e389fa2945360f"
+url = "https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-aarch64-pc-windows-msvc.zip"
+sha256 = "3302ede09745d33ca2b287bf3c6434c54cb35c3b408a7d3a265939961add5a1a"
 archive = "zip"
 strip_components = 1
 
@@ -31,8 +31,8 @@ name = "rg.exe"
 
 [[artifacts]]
 target = "x86_64-unknown-linux-musl"
-url = "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-unknown-linux-musl.tar.gz"
-sha256 = "33e15bcf1624b25cdd2a55813a47a2f95dbe126268203e76aa6a585d1e7b149c"
+url = "https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-x86_64-unknown-linux-musl.tar.gz"
+sha256 = "54268ab4643c00a290a29b0086066d64b3f56236dd805ec64629a86f9bd29fd0"
 archive = "tar.gz"
 strip_components = 1
 
@@ -42,8 +42,8 @@ name = "rg"
 
 [[artifacts]]
 target = "aarch64-unknown-linux-gnu"
-url = "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-unknown-linux-gnu.tar.gz"
-sha256 = "a740b91c82eaf9914cfedd353572f2791cbe0162c84101ee0951058f4dcbc90d"
+url = "https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-aarch64-unknown-linux-gnu.tar.gz"
+sha256 = "0b0bddcfaf42be1f3c56bf929d70defd1a2d96f2577aecbd7029a3734ddb4740"
 archive = "tar.gz"
 strip_components = 1
 
@@ -53,8 +53,8 @@ name = "rg"
 
 [[artifacts]]
 target = "aarch64-unknown-linux-musl"
-url = "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-unknown-linux-musl.tar.gz"
-sha256 = "800b1e7206afe799dfb5a6901f23147cfaabe0e52210538100f61e86e1740915"
+url = "https://github.com/BurntSushi/ripgrep/releases/download/16.0.0/ripgrep-16.0.0-aarch64-unknown-linux-musl.tar.gz"
+sha256 = "374f1886be881e8e8683d7107278f7af1b6017fda75eb97de71f5783f42b0110"
 archive = "tar.gz"
 strip_components = 1
 

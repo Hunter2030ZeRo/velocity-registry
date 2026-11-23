@@ -1,8 +1,8 @@
-# Upstream release: https://github.com/dandavison/delta/releases/tag/0.20.1
-# SHA-256 source: GitHub release asset digest (not locally rehashed).
+# Upstream release: https://github.com/dandavison/delta/releases/tag/0.21.2
+# SHA-256 source: GitHub release asset digest, locally rehashed and matched.
 schema = 1
 name = "delta"
-version = "0.20.1"
+version = "0.21.2"
 description = "Syntax-highlighting pager for git, diff, grep, and blame output"
 homepage = "https://github.com/dandavison/delta"
 license = "MIT"
@@ -12,8 +12,8 @@ conflicts = []
 
 [[artifacts]]
 target = "x86_64-pc-windows-msvc"
-url = "https://github.com/dandavison/delta/releases/download/0.20.1/delta-0.20.1-x86_64-pc-windows-msvc.zip"
-sha256 = "c9af7484b33f1dbc1312a892fc7d5753a6d3365140a4000d49e575a2de742c25"
+url = "https://github.com/dandavison/delta/releases/download/0.21.2/delta-0.21.2-x86_64-pc-windows-msvc.zip"
+sha256 = "494af2013670f0304320d5e3ab5496274e5dd95cb1ce442181e3ce677f56af3d"
 archive = "zip"
 strip_components = 1
 
@@ -23,8 +23,8 @@ name = "delta.exe"
 
 [[artifacts]]
 target = "x86_64-unknown-linux-gnu"
-url = "https://github.com/dandavison/delta/releases/download/0.20.1/delta-0.20.1-x86_64-unknown-linux-gnu.tar.gz"
-sha256 = "50f08c879f84c81ceb220e476491a7f492d2c9c671e79918cc44badf961a6240"
+url = "https://github.com/dandavison/delta/releases/download/0.21.2/delta-0.21.2-x86_64-unknown-linux-gnu.tar.gz"
+sha256 = "5d41046c4ada17e7d080e1e5dbbd46544146bb5597e2ab56881a8c594272cd06"
 archive = "tar.gz"
 strip_components = 1
 
@@ -34,8 +34,8 @@ name = "delta"
 
 [[artifacts]]
 target = "aarch64-unknown-linux-gnu"
-url = "https://github.com/dandavison/delta/releases/download/0.20.1/delta-0.20.1-aarch64-unknown-linux-gnu.tar.gz"
-sha256 = "da7f4338f593572ff426ae153e0870e2fdc72729416eff551b40cdeb67940db8"
+url = "https://github.com/dandavison/delta/releases/download/0.21.2/delta-0.21.2-aarch64-unknown-linux-gnu.tar.gz"
+sha256 = "36dca3ddb293d2fa635aa2bf9c53c0ba2d38dcd749290d81c6685974cf3799c4"
 archive = "tar.gz"
 strip_components = 1
 
@@ -45,8 +45,8 @@ name = "delta"
 
 [[artifacts]]
 target = "x86_64-unknown-linux-musl"
-url = "https://github.com/dandavison/delta/releases/download/0.20.1/delta-0.20.1-x86_64-unknown-linux-musl.tar.gz"
-sha256 = "69dcb4043f55c29118f408c6efd30115e0a4e0a6709253343b8c8fa814ab4a31"
+url = "https://github.com/dandavison/delta/releases/download/0.21.2/delta-0.21.2-x86_64-unknown-linux-musl.tar.gz"
+sha256 = "d4c55c9b9991c308cad84412e8a8afdc990779e4dd021f6ebb277a4249719b9f"
 archive = "tar.gz"
 strip_components = 1
 
